@@ -1,0 +1,95 @@
+
+/* Formulário centralizado com fundo branco */
+.form {
+  margin-left: 760px;
+  background-color: #ffffff; /* Cor de fundo do formulário */
+  border-radius: 20px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+  padding: 20px;
+  min-height: 250px;
+  width: 50%;
+  max-width: 400px; /* Largura máxima do formulário */
+  margin-bottom: 20px; /* Espaço abaixo do formulário */
+}
+
+h1{
+  margin-left: 800px;
+}
+
+/* Estilo para títulos no formulário */
+h2 {
+  margin-top: 50px;
+  color: #050505;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilo para o campo de texto */
+input[type="text"] {
+  margin-left: 50px;
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box; /* Inclui o padding e border na largura total */
+}
+
+/* Estilo para o botão */
+button {
+  margin-left: 50px;
+  width: 75%;
+  padding: 10px;
+  background-color: #007bff; /* Cor do botão */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo para o container de conteúdo */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff; /* Cor de fundo da div container */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da div container */
+  padding: 20px;
+  width: 40%;
+  max-width: 100px; /* Largura máxima da div container */
+  margin-left: 1300px;
+  margin-top: -400px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o conteúdo principal */
+.conteudo {
+  text-align: center;
+}
+
+/* Estilo para a imagem do avatar */
+img {
+  border-radius: 50%; /* Torna a imagem circular */
+  width: 150px; /* Largura da imagem */
+  height: 150px; /* Altura da imagem */
+  margin-bottom: 10px;
+}
+
+/* Estilo para o texto da biografia */
+p {
+  font-size: 1rem;
+  color: #333;
+}
+
